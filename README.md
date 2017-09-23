@@ -2,10 +2,6 @@ Internet weather station for the Raspberry Pi
 
 # Install
 
-git clone https://github.com/dmitryelj/RPi-Weather-Station.git
-
-Get free key at https://openweathermap.org/api (press "Subscribe"). Save key as "key.txt" in the app folder.
-
 Install Python3:
 
 sudo apt-get install python3
@@ -13,6 +9,12 @@ sudo apt-get install python3
 Install additional libraries:
 
 sudo pip3 install numpy pillow spidev 
+
+Get app sources:
+
+git clone https://github.com/dmitryelj/RPi-Weather-Station.git
+
+Get free key at https://openweathermap.org/api (press "Subscribe" on this page). Save key as "key.txt" in the app folder.
 
 Add app to startup (sudo nano /etc/rc.local):
 
